@@ -6,7 +6,8 @@ namespace Open_Lab_01._04
     {
         public double Area(double foundation, double height)
         {
-            throw new NotImplementedException();
+            double area = foundation * height / 2;
+            return area;
         }
     }
 }
